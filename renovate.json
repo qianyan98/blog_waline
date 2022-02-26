@@ -1,11 +1,5 @@
 {
   "extends": [
-    "config:base", ":disableDependencyDashboard"
-  ],
-  "packageRules": [
-    {
-      "matchDepTypes": ["dependencies"],
-      "automerge": true
-    }
+    "config:base"
   ]
 }
