@@ -12,8 +12,9 @@ module.exports = waline({
 	disallowIPList: [],
   	secureDomains: [
 	    'qianyan98.github.io',
-	    'makiru.top',
-	    'blog-waline-ypia.vercel.app'
+	    'blog.makiru.top',
+	    'blog-waline-ypia.vercel.app',
+	    'waline.makiru.top'
   	],
 	mailSubject: '{{parent.nick}}，您在博客『{{site.name}}』上的留言，收到了来自{{self.nick}}的回复 📨',
 	mailSubjectAdmin: '您的博客『{{site.name}}』收到了来自{{self.nick}}的留言🕊',
