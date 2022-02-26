@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base", ":dependencyDashboard"
+    "config:base", ":disableDependencyDashboard"
   ],
   "packageRules": [
     {
